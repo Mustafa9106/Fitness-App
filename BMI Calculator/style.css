@@ -1,0 +1,114 @@
+:root{
+    --underweight: orange;
+    --normal: green;
+    --overweight: lightcoral;
+    --obese: crimson;
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+    background: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: url(/img-vid/bmi.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+.container{
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow:0 10px 15px rgba(0, 0, 0, 0.9) ;
+    display: grid;
+    gap: 1em;
+transition-delay:1.5s;
+position: relative;
+bottom: 50px;
+
+}
+.calculator{
+    display: grid;
+    gap: 1rem;
+}
+.calculator div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.calculator label{
+    flex: 0 1 120px;
+    font-weight: 600;
+}
+.calculator input{
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    outline-color: #555;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.calculator button{
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    background: rgb(22, 103, 252);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.calculator button[type="reset"]{
+    background: #444;
+}
+.calculator button:hover{
+    filter: brightness(120%);
+}
+.output{
+    text-align: center;
+}
+.output #bmi{
+    font-size: 4em;
+}
+.output #desc strong{
+    text-transform: uppercase;
+}
+.bmi-scale{
+    display: flex;
+}
+.bmi-scale div{
+    flex: 1;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 6px solid var(--color); 
+    padding: 10px 8px;
+   
+}
+.bmi-scale h4{
+    font-size: 0.75rem;
+    color: slategray;
+}
+.underweight{
+    color: var(--underweight)
+}
+.healthy{
+    color: var(--normal);
+}
+.overweight{
+    color: var(--overweight);
+}
+.obese{
+    color: var(--obese);
+}

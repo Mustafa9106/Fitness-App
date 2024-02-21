@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+header h1 {
+  color: rgb(22, 103, 252);
+  letter-spacing: 2px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item h4 {
+  font-weight: 400;
+}
+.grid-item > a {
+  color: black;
+}
+
+.grid-item > img:hover {
+  transform: translateY(-8px) scale(1.08);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 0 12px rgba(31, 31, 253, 0.3);
+}
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    padding: 4px;
+    gap: 0;
+    place-content: center;
+  }
+  .grid-item {
+    padding: 2px;
+  }
+  .grid-item > img {
+    width: 160px;
+  }
+  .grid-item h4 {
+    font-size: 20px;
+  }
+  header h1 {
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+  header h5 {
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+}

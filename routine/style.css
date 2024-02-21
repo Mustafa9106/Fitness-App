@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+::-webkit-scrollbar {
+    width: 6px !important;
+
+}
+
+::-webkit-scrollbar-track {
+    background: white !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(22, 103, 252) !important;
+}
+*{
+	margin: 0;
+	padding: 0px,50px;
+	box-sizing: border-box;
+}
+body{
+	height: 90vh;
+	background-image:url(/img-vid/todo-back4.png);
+    background-size: cover;
+}
+.container{
+    text-align: center;
+	position: relative;
+	max-width: 800px;
+	padding: 10px;
+	margin: 50px auto;
+	background-color: rgba(8, 8, 8, 0.548);
+border-radius: 33px;
+}
+.addTask{
+	width: 100%;
+	display: flex;
+	padding: 80px 0;
+}
+.addTask > input[type="text"]{
+	width: 90%;
+	color: rgb(22, 103, 252);
+	border:none;
+	border-bottom: 2px solid rgb(22, 103, 252);
+	background: none;
+	padding: 10px;
+	font-size: 22px;
+	outline: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.addTask button{
+	margin: 0 10px;
+	background: #000000b9;
+	border: 1px solid rgb(22, 103, 252);
+	color: rgb(22, 103, 252);
+	font-size: 18px;
+	text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.notCompleted, .Completed{
+	margin: 5px 0;
+	padding: 20px;
+}
+h3{
+	font-size: 35px;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(22, 103, 252);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ol{
+	list-style: none;
+	counter-reset: my-counter;
+}
+ol li{
+	width: 100%;
+	padding: 18px;
+	margin: 5px 0;
+	background: #bb0a0abb;
+	font-size: 22px;
+	counter-increment: my-counter;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ol.Completed li{
+	background: #0b642d;
+}
+ol li::before{
+	content: counter(my-counter);
+	background:rgb(22, 103, 252);
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	display: inline-block;
+	line-height: 2rem;
+	text-align: center;
+	color: #fff;
+	margin-right: 0.5rem;
+}
+li button{
+	float: right;
+	padding: 5px;
+	font-size: 28px;
+	line-height: 28px;
+	margin-right: 15px;
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
