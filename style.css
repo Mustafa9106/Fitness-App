@@ -341,9 +341,10 @@ lord-icon{
     padding: 0;
     margin: 0;
     overflow: hidden;
+    bottom: 30px;
   }
   .main-content > h1 {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .main-bottom {
     padding: 0;
