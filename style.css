@@ -243,13 +243,12 @@ hr {
 .contact {
   display: flex;
   flex-direction: row;
-  height: 80vh;
 
 }
 .left-contact {
   background: url(img-vid/contact.jpg);
   filter: grayscale(30);
-  height: 85vh;
+  height: 70vh;
   width: 50vw;
   background-size: cover;
   color: white;
