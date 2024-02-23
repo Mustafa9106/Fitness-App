@@ -248,7 +248,7 @@ hr {
 .left-contact {
   background: url(img-vid/contact.jpg);
   filter: grayscale(30);
-  height: 70vh;
+  height: 75vh;
   width: 50vw;
   background-size: cover;
   color: white;
