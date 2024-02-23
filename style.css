@@ -482,17 +482,27 @@ footer {
     align-items: flex-start;
   }
   .left-contact .contact-details {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+  }
+  .left-contact .contact-head{
+    font-size: 1.6em;
+  }
+  .right-contact{
+    padding: 10px;
+
+  }
+  .right-contact h1{
+    font-size: 1.6em;
   }
   .right-contact .contact-detailsr form input{
     padding: 9px;
-    width: 80%;
+    width: 100%;
   }
   textarea {
     max-width: 100%;
     height: 10vh;
   }
   .btn-2{
-    width: 12vw;
+    width: 16vw;
   }
 }
