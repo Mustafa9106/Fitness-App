@@ -115,7 +115,7 @@ input {
   align-items: center;
   color: white;
   text-align: center;
-  margin-top: 135px;
+  margin-top: 125px;
   padding: 25px 20px;
   background-color: rgba(0, 0, 0, 0.514);
 }
@@ -348,7 +348,7 @@ lord-icon{
   .main-bottom {
     padding: 0;
     margin-top: 0px;
-    height:75vh;
+    height:71vh;
     flex-direction: column;
   }
   .left h1,
