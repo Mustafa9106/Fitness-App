@@ -349,14 +349,14 @@ lord-icon{
   .main-bottom {
     padding: 0;
     margin-top: 0px;
-    height:71vh;
+    height:75vh;
     flex-direction: column;
   }
   .left h1,
   .middle h1,
   .right h1 {
     font-size: 1.3em;
-    padding: 10px;
+
   }
   .main-bottom p {
     font-size: 1.1rem;
@@ -365,8 +365,8 @@ lord-icon{
     line-height: 15px;
   }
   lord-icon{
-    width: 0px;
-    height: 0px;
+    width: 35px;
+    height: 35px;
     visibility:visible;
   }
   .btn-1 {
