@@ -487,7 +487,7 @@ footer {
  .left-contact{
     align-items: flex-start;
     width: 100%;
-    height: 60vh;
+    height: 40vh;
   }
   .left-contact .contact-details {
     font-size: 0.8rem;
@@ -498,6 +498,7 @@ footer {
   .right-contact{
     padding: 10px;
     width: 100%;
+    height: 40vh;
 
   }
   .right-contact h1{
