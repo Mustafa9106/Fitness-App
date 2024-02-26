@@ -111,5 +111,6 @@ h1 {
 @media (max-width:500px){
   .container{
     padding: 3px;
+    margin: 5px;
   }
 }
