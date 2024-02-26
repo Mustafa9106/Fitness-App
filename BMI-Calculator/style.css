@@ -108,3 +108,8 @@ h1 {
 .obese {
   color: var(--obese);
 }
+@media (max-width:500px){
+  .container{
+    padding: 3px;
+  }
+}

@@ -5,6 +5,18 @@
 body{
     background-color:whitesmoke;
 }
+.custom-alert {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  visibility: hidden;
+
+}
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+  background-color: rgb(22, 103, 252) !important;
+}
 .icons {
   display: flex;
   align-items: center;

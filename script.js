@@ -1,3 +1,21 @@
+// fetch("https://famous-quotes4.p.rapidapi.com/random?category=fitness&count=4",{
+//     "method":"GET",
+//     "headers":{
+//         'X-RapidAPI-Key': '645fca1125msh8899c333deee92dp115e04jsnb8f6350280cd',
+// 		'X-RapidAPI-Host': 'famous-quotes4.p.rapidapi.com'
+
+//     }
+// })
+// .then(Response=> Response.json())
+// .then(Response =>{
+//     console.log(Response);
+//     console.log(Response.content);
+// })
+// .catch(err =>{
+//     console.log(err);
+// })
+
+
 const dynamicText = document.querySelector("h1 span");
 const words = ["BECOME STRONGER IS YOUR CHOICE.", "NO PAIN, NO GAIN.", "DO IT NOW OR NEVER.", "STAY HARD !"];
 let wordIndex = 0;
@@ -22,16 +40,3 @@ const typeEffect = () => {
     }
 }
 typeEffect();
-var category = 'fitness'
-$.ajax({
-    method: 'GET',
-    url: 'https://api.api-ninjas.com/v1/quotes?category=' + category,
-    headers: { 'X-Api-Key': 'YOUR_API_KEY'},
-    contentType: 'application/json',
-    success: function(result) {
-        console.log(result);
-    },
-    error: function ajaxError(jqXHR) {
-        console.error('Error: ', jqXHR.responseText);
-    }
-});

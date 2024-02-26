@@ -27,4 +27,7 @@ width: 2%;
     #product1 .prod-container{
       flex-direction: column;
     }
+    .sticky-div{
+        transform: translateX(-30%);
+    }
 }
