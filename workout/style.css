@@ -55,21 +55,25 @@ header h1 {
   display: grid;
   grid-template-columns: auto auto auto auto;
   padding: 10px;
+  gap: 10px;
 }
 .grid-item {
   padding: 20px;
   font-size: 30px;
   text-align: center;
+  border: 1px solid black;
+  
 }
 .grid-item h4 {
   font-weight: 400;
 }
 .grid-item > a {
-  /* color: white; */
+  text-decoration: none;
+  color: black;
 }
 
-.grid-item > img:hover {
-  transform: translateY(-8px) scale(1.08);
+.grid-item:hover {
+  transform: translateY(-8px) scale(0.9);
   transition: 0.3s ease-in-out;
   cursor: pointer;
   box-shadow: 0px 0 12px rgba(31, 31, 253, 0.3);
@@ -78,7 +82,7 @@ header h1 {
   .grid-container {
     grid-template-columns: 1fr 1fr;
     padding: 4px;
-    gap: 0;
+    gap: 10px;
     place-content: center;
   }
   .grid-item {
