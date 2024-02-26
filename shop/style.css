@@ -173,6 +173,9 @@ header{
     .listProduct{
         grid-template-columns: repeat(1, 1fr);
     }
+    .listProduct .item{
+        height: 50vh;
+    }
     .sticky-div{
         transform: translateX(-30%);
     }
