@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'spartan', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
     /* outline: 1px solid red; */
     scroll-behavior: smooth;
 }
@@ -51,7 +51,7 @@ h6{
     font-weight: 700;
 }
 p{
-    font-size: 16px;
+    font-size: 19px;
     color: #465b52;
 }
 .section-p1{
@@ -140,7 +140,7 @@ title{
 }
 #product1 .prod .des h6{
     color: black;
-    font-size: 13px;
+    font-size: 17px;
     padding: auto;
     font-weight: 500;
 }
@@ -149,6 +149,7 @@ title{
     color: rgb(22, 103, 252); 
     font-size: 25px;
 }
+
 footer {
     text-align: center;
     background: black;

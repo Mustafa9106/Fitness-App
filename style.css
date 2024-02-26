@@ -7,7 +7,6 @@
 }
 ::-webkit-scrollbar {
   width: 6px !important;
-
 }
 
 ::-webkit-scrollbar-track {
@@ -15,7 +14,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(22,103,252) !important;
+  background: rgb(22, 103, 252) !important;
 }
 
 header {
@@ -52,7 +51,7 @@ nav {
 .sticky-div {
   position: fixed;
   bottom: 20px;
-  left: 3%; 
+  left: 3%;
   transform: translateX(-50%); /* Center horizontally */
   /* background-color: #007bff; */
   color: #fff;
@@ -321,7 +320,7 @@ textarea {
   border: 1px solid black;
   font-size: 15px;
   background-color: whitesmoke;
-color: black;
+  color: black;
 }
 textarea:focus {
   outline: none;
@@ -525,7 +524,7 @@ footer {
   .btn-2 {
     width: 16vw;
   }
-  .sticky-div{
+  .sticky-div {
     transform: translateX(-30%);
   }
 }
